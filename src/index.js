@@ -2,16 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
-import Counter from './conponent/useMemo';
+// import Counter from './conponent/useMemo';
 // import UserData from './conponent/useRef';
 import reportWebVitals from './reportWebVitals';
+import Reducer from './conponent/useReducer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Counter/>
+    {/* <Counter/> */}
     {/* <UserData/> */}
+    <Reducer/>
   </React.StrictMode>
 );
 

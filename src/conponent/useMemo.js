@@ -14,9 +14,9 @@ function Counter(){
 
     
     // const isEven = useMemo(()=>{
+    //     console.log('iseven is checked')
     //     let i = 0
     //     while( i < 2000000000) i++ 
-    //     console.log('iseven is checked')
     //     return  counterOne % 2 === 0
     //   },[counterOne])
 
@@ -26,11 +26,12 @@ function Counter(){
     // }
 
     const isEven = useCallback(()=>{
-        console.log('iseven is checked')
         let i = 0
         while( i < 2000000000) i++ 
+        console.log('iseven is checked')
         return  counterOne % 2 === 0
       },[counterOne])
+      
     return(
         <>
         {console.log('rendered')}
