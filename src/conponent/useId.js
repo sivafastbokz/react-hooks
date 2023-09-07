@@ -4,7 +4,7 @@ function InputId(){
     const id = useId();
     return(
         <>
-        <label htmlFor={id}>email</label>
+        <label id={id}>email</label>
         <input type='email' id={id}></input>
         </>
     )

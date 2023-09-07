@@ -5,7 +5,8 @@ import './index.css';
 // import Counter from './conponent/useMemo';
 // import UserData from './conponent/useRef';
 import reportWebVitals from './reportWebVitals';
-import Blog from './conponent/blog';
+import List from './conponent/usetransition';
+// import Blog from './conponent/blog';
 // import Reducer from './conponent/useReducer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,7 +16,8 @@ root.render(
     {/* <Counter/> */}
     {/* <UserData/> */}
     {/* <Reducer/> */}
-   <Blog/>
+   {/* <Blog/> */}
+   <List/>
   </React.StrictMode>
 );
 
