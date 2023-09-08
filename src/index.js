@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 // import Counter from './conponent/useMemo';
-// import UserData from './conponent/useRef';
+import UserData from './conponent/useRef';
 import reportWebVitals from './reportWebVitals';
-import List from './conponent/usetransition';
+// import List from './conponent/usetransition';
 // import Blog from './conponent/blog';
 // import Reducer from './conponent/useReducer';
 
@@ -14,10 +14,10 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Counter/> */}
-    {/* <UserData/> */}
+    <UserData/>
     {/* <Reducer/> */}
    {/* <Blog/> */}
-   <List/>
+   {/* <List/> */}
   </React.StrictMode>
 );
 
